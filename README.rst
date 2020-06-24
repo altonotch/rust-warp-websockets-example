@@ -38,4 +38,6 @@ URLs
     - Result returned `{"status": "success", "response": "awesome message"}`.
 
 
-3. ``/ws-private`` - websocket endpoint with authorization. Same payloads as in step 2. (coming soon)
+3. ``/ws-private`` - websocket endpoint with api token authorization. Same payloads as in step 2.
+
+    - Expected header `'Authorization: Token 6smtr8ke3s7yq63f3zug9z3th'`
